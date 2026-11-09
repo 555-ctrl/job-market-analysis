@@ -20,7 +20,7 @@ from pathlib import Path
 def parse_args():
     parser = argparse.ArgumentParser(description='招聘数据集清洗')
     parser.add_argument('--input', type=str, default='data/gsearch_jobs.csv', help='输入文件路径')
-    parser.add_argument('--output', type=str, default='data/cleaned_jobs.csv', help='输出文件路径')
+    parser.add_argument('--output', type=str, default='data/data_cleaned.csv', help='输出文件路径')
     return parser.parse_args()
 
 
